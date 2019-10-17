@@ -1,0 +1,87 @@
+@import '../../styles-settings';
+
+.list {
+  padding: $global-content-padding;
+  border-bottom: $global-border;
+
+  .books-list {
+    width: 100%;
+    border: $global-border;
+
+    th, td {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-right: $global-border;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      &.title {
+        width: 35%;
+      }
+
+      &.author {
+        width: 20%;
+      }
+
+      &.company {
+        width: 30%;
+      }
+
+      &.year {
+        width: 5%;
+      }
+
+      &.actions {
+        width: 10%;
+      }
+    }
+
+    thead {
+
+      tr {
+        background-color: $global-background-primary-color;
+
+        th {
+          padding-top: 1.5rem;
+          padding-bottom: 1.5rem;
+        }
+      }
+    }
+
+    tbody {
+
+      tr {
+        &:nth-child(even) {
+          background-color: $global-background-secondary-color;
+        }
+
+        a {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .pagination {
+    margin-bottom: 0;
+    padding-top: 1rem;
+
+    .page-item {
+      margin-right: 0.5rem;
+
+      :last-child {
+        margin-right: 0;
+      }
+
+      .page-link {
+        color: $global-text-color;
+        border-color: $global-border-color;
+        border-radius: 0;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+    }
+  }
+}

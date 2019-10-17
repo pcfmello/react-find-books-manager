@@ -1,0 +1,18 @@
+@import './styles-settings';
+
+* {
+  font-family: $global-font-family;
+}
+
+.app {
+  min-width: $global-app-min-width;
+}
+
+.btn, .form-control {
+  border-radius: 0 !important;
+}
+
+.form-control {
+  border: $global-border !important;
+}
+

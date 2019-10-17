@@ -1,0 +1,38 @@
+@import '../../styles-settings';
+
+.header {
+  padding: $global-content-padding;
+  border-bottom: $global-border;
+  height: 6rem;
+
+  :first-child {
+    margin-right: 1rem;
+  }
+
+  :last-child {
+    margin-left: 0.5rem;
+  }
+
+  .logo {
+    font-size: 5rem;
+  }
+
+  input {
+    background-image: url("../../images/search-solid.svg");
+    background-repeat: no-repeat;
+    background-size: 3rem;
+    background-position: center left 1rem;
+    padding-left: 5rem;
+
+    &::placeholder {
+      font-weight: bold;
+      color: $global-background-secondary-color;
+    }
+  }
+
+  button {
+    font-weight: bolder;
+    background-color: $global-background-primary-color;
+    width: 300px;
+  }
+}

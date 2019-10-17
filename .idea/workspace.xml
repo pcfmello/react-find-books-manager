@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72e30ff1-2b51-4fe2-9e42-fd7749cac27a" name="Default Changelist" comment="" />
+    <list default="true" id="72e30ff1-2b51-4fe2-9e42-fd7749cac27a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/filter/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/filter/_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/filter/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/filter/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/header/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/list/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/list/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles-settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles-settings.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

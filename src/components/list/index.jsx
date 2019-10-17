@@ -1,11 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './_styles.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faAngleLeft, faAngleDoubleLeft, faAngleRight, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 
-const List = () => (
+const List = ({ list }) => (
   <div className="list d-flex flex-column">
     <table className="books-list">
       <thead>
@@ -82,7 +83,7 @@ const List = () => (
     </table>
 
     <nav>
-      <ul className="pagination justify-content-center">
+      <ul className="pagination justify-content-center align-items-center">
         <li className="page-item">
           <a className="page-link" href="#">
             <span aria-hidden="true"><FontAwesomeIcon className="calendar-icon" icon={faAngleDoubleLeft} /></span>
@@ -97,7 +98,7 @@ const List = () => (
         <li className="page-item"><a className="page-link" href="#">1</a></li>
         <li className="page-item"><a className="page-link" href="#">2</a></li>
         <li className="page-item"><a className="page-link" href="#">3</a></li>
-        <li className="page-item"><a className="page-link" href="#">4</a></li>
+        <li className="page-item"><a className="page-link active" href="#">4</a></li>
         <li className="page-item"><a className="page-link" href="#">5</a></li>
         <li className="page-item"><a className="page-link" href="#">6</a></li>
         <li className="page-item"><a className="page-link" href="#">...</a></li>
@@ -117,5 +118,9 @@ const List = () => (
     </nav>
   </div>
 );
+
+List.propTypes = {
+  list: PropTypes.array.isRequired
+};
 
 export default List;

@@ -76,11 +76,16 @@
       }
 
       .page-link {
-        color: $global-text-color;
         border-color: $global-border-color;
         border-radius: 0;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+        color: $global-text-color;
+
+        &.active {
+          border-width: 5px;
+          font-weight: bold;
+        }
       }
     }
   }

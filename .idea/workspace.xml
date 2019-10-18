@@ -4,15 +4,9 @@
     <list default="true" id="72e30ff1-2b51-4fe2-9e42-fd7749cac27a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/filter/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/filter/_styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/filter/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/filter/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/_style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/list/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/_styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/list/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles-settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles-settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571329682413</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating funcionalities to get form data">
+      <created>1571348214247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571348214247</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating base layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating base layout" />
+    <MESSAGE value="Creating funcionalities to get form data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating funcionalities to get form data" />
   </component>
 </project>

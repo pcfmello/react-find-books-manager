@@ -67,26 +67,36 @@
   .pagination {
     margin-bottom: 0;
     padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    .page-item {
+    li {
       margin-right: 0.5rem;
 
       :last-child {
         margin-right: 0;
       }
 
-      .page-link {
-        border-color: $global-border-color;
-        border-radius: 0;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        color: $global-text-color;
 
-        &.active {
+      a {
+        border: $global-border;
+        border-radius: 0;
+        padding: 0.5rem 1.5rem;
+        color: $global-text-color;
+      }
+
+      &.active {
+        a {
           border-width: 5px;
           font-weight: bold;
         }
       }
     }
+  }
+
+  .activeClass {
+    border-width: 5px;
+    font-weight: bold;
   }
 }

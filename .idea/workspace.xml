@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="72e30ff1-2b51-4fe2-9e42-fd7749cac27a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/filter/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/filter/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/_styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571358687805</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implements filters;&#10;Implements JSon server;&#10;Implements Details modal;&#10;Styling layout;">
+      <created>1571439824884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571439824884</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +134,7 @@
     <MESSAGE value="Creating base layout" />
     <MESSAGE value="Creating funcionalities to get form data" />
     <MESSAGE value="Implements pagination." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implements pagination." />
+    <MESSAGE value="Implements filters;&#10;Implements JSon server;&#10;Implements Details modal;&#10;Styling layout;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implements filters;&#10;Implements JSon server;&#10;Implements Details modal;&#10;Styling layout;" />
   </component>
 </project>

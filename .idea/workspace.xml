@@ -4,6 +4,10 @@
     <list default="true" id="72e30ff1-2b51-4fe2-9e42-fd7749cac27a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/filter/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/filter/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/list/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/_styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/list/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
@@ -24,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/details" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,13 +39,15 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/pages/header" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/details" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/pages/header" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -98,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571348214247</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implements pagination.">
+      <created>1571358687805</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571358687805</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating base layout" />
     <MESSAGE value="Creating funcionalities to get form data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating funcionalities to get form data" />
+    <MESSAGE value="Implements pagination." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implements pagination." />
   </component>
 </project>

@@ -10,7 +10,7 @@ const Header = ({ search, setSearch, handleSubmit }) => (
     <input type="text" className="form-control h-100" value={search}
            onChange={setSearch} placeholder="Busque livros pelo título, autor ou ISBN" />
 
-    <button className="btn btn-outline-dark h-100" onClick={handleSubmit}>BUSCAR</button>
+    <button className="btn btn-outline-dark h-100" onClick={() => handleSubmit()}>BUSCAR</button>
 
   </div>
 );

@@ -31,7 +31,9 @@ const Filter = ({ startYear, endYear, setStartYear, setEndYear, total }) => (
       </div>
 
       </div>
-    <div className="w-25 d-flex align-items-center justify-content-end">{total} resultados encontrados</div>
+    {total > 0 && <div className="w-25 d-flex align-items-center justify-content-end">
+      {total} resultado{total > 1 ? 's' : ''} encontrado{total > 1 ? 's' : ''}</div>
+    }
   </div>
 );
 

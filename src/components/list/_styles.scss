@@ -4,6 +4,10 @@
   padding: $global-content-padding;
   border-bottom: $global-border;
 
+  .empty-list {
+    height: 10rem;
+  }
+
   .books-list {
     width: 100%;
     border: $global-border;
@@ -59,39 +63,59 @@
 
         a {
           text-decoration: underline;
+          cursor: pointer;
         }
       }
     }
   }
 
   .pagination {
-    margin-bottom: 0;
     padding-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
 
     li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin-right: 0.5rem;
+      border: $global-border;
+      border-radius: 0;
+      width: 4rem;
+      height: 2.5rem;
+      cursor: pointer;
 
       :last-child {
         margin-right: 0;
       }
 
-
-      a {
-        border: $global-border;
-        border-radius: 0;
-        padding: 0.5rem 1.5rem;
-        color: $global-text-color;
+      &:hover {
+        background-color: $global-background-primary-color;
       }
 
       &.active {
+        border-width: 5px;
+        font-weight: bold;
+      }
+
+      &.disabled {
+        background-color: $global-background-secondary-color;
+        cursor: not-allowed;
+
         a {
-          border-width: 5px;
-          font-weight: bold;
+          cursor: not-allowed;
+          opacity: 0.5;
         }
       }
+
+
+
+      a {
+        color: $global-text-color;
+      }
+
+
     }
   }
 

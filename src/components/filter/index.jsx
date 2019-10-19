@@ -16,6 +16,7 @@ const Filter = ({ startYear, endYear, setStartYear, setEndYear, total }) => (
           className="form-control"
           value={startYear}
           onChange={setStartYear}
+          tabIndex="2"
         />
         <FontAwesomeIcon className="calendar-icon" icon={faCalendarAlt} />
       </div>
@@ -26,6 +27,7 @@ const Filter = ({ startYear, endYear, setStartYear, setEndYear, total }) => (
           className="form-control"
           value={endYear}
           onChange={setEndYear}
+          tabIndex="3"
         />
         <FontAwesomeIcon className="calendar-icon" icon={faCalendarAlt} />
       </div>

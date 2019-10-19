@@ -21,6 +21,7 @@ class App extends React.PureComponent {
       list: [],
       errorMessage: '',
       showDetails: false,
+      isLoading: true,
       pagination: {
         totalItemsCount: 0,
         activePage: 1,
@@ -29,9 +30,13 @@ class App extends React.PureComponent {
       }
     };
 
-    this._getBooks();
+
 
     this._getBooks = this._getBooks.bind(this);
+  }
+
+  componentDidMount() {
+    this._getBooks();
   }
 
   setError(errorMessage) {
@@ -42,6 +47,7 @@ class App extends React.PureComponent {
 
     try {
 
+      this.setState({ isLoading: true });
       this.setError('');
 
       if (this.state.endYear && this.state.startYear > this.state.endYear) {
@@ -72,16 +78,13 @@ class App extends React.PureComponent {
 
       const response = await API.get(`http://localhost:3005/books/?${query}`);
 
-      if(response.status !== 200) {
-
-      }
-
       this.setState({
         list: response.data,
         pagination: { ...this.state.pagination, totalItemsCount: Number(response.headers['x-total-count']), activePage: page }
       });
 
     } catch(e) {
+
       if (e.message === 'Network Error') {
         this.setError('Erro ao efetuar sua consulta. Verifique sua conexão com a internet');
       } else if(e.response && e.response.status !== 200) {
@@ -90,6 +93,8 @@ class App extends React.PureComponent {
       else {
         this.setError(e.message);
       }
+    } finally {
+      setInterval(() => this.setState({ isLoading: false}), 1500);
     }
   };
 
@@ -107,7 +112,7 @@ class App extends React.PureComponent {
 
   render() {
 
-    const { search, startYear, endYear, list, errorMessage, pagination } = this.state;
+    const { search, startYear, endYear, list, errorMessage, pagination, isLoading } = this.state;
 
     return (
       <div className="app">
@@ -135,7 +140,7 @@ class App extends React.PureComponent {
             setStartYear={e => this.setState({startYear: this.isValidYear(e.target.value)})}
             setEndYear={e => this.setState({ endYear: this.isValidYear(e.target.value) })}
           />
-          <List {...{list, pagination}} handleSubmit={this._getBooks} />
+          <List {...{list, pagination, isLoading}} handleSubmit={this._getBooks} />
         </main>
       </div>
     );

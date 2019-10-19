@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72e30ff1-2b51-4fe2-9e42-fd7749cac27a" name="Default Changelist" comment="">
+    <list default="true" id="72e30ff1-2b51-4fe2-9e42-fd7749cac27a" name="Default Changelist" comment="Refactoring and implements new components&#10;- Implements a spinner to show loading list;&#10;- Implements tabIndex on inputs/buttons;&#10;- Updating README.md&#10;- Implements functions run in a some keypress;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/filter/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/filter/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles-settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles-settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +91,8 @@
       <updated>1571234114270</updated>
       <workItem from="1571234115894" duration="20425000" />
       <workItem from="1571318782905" duration="10945000" />
+      <workItem from="1571486483755" duration="606000" />
+      <workItem from="1571487103381" duration="12797000" />
     </task>
     <task id="LOCAL-00001" summary="Creating base layout">
       <created>1571329682413</created>
@@ -135,6 +146,7 @@
     <MESSAGE value="Creating funcionalities to get form data" />
     <MESSAGE value="Implements pagination." />
     <MESSAGE value="Implements filters;&#10;Implements JSon server;&#10;Implements Details modal;&#10;Styling layout;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implements filters;&#10;Implements JSon server;&#10;Implements Details modal;&#10;Styling layout;" />
+    <MESSAGE value="Refactoring and implements new components&#10;- Implements a spinner to show loading list;&#10;- Implements tabIndex on inputs/buttons;&#10;- Updating README.md&#10;- Implements functions run in a some keypress;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring and implements new components&#10;- Implements a spinner to show loading list;&#10;- Implements tabIndex on inputs/buttons;&#10;- Updating README.md&#10;- Implements functions run in a some keypress;" />
   </component>
 </project>

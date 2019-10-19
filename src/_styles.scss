@@ -25,3 +25,22 @@
   border: $global-border !important;
 }
 
+input {
+
+  &:focus {
+    box-shadow: $global-input-box-shadow !important;
+    border: $global-border !important;
+  }
+}
+
+button {
+  &.btn-link {
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:focus {
+      color: $global-text-color;
+    }
+  }
+}
+

@@ -6,6 +6,10 @@
 
   .empty-list {
     height: 10rem;
+
+    .loading-spinner {
+      margin-bottom: 1rem;
+    }
   }
 
   .books-list {
@@ -60,11 +64,6 @@
         &:nth-child(even) {
           background-color: $global-background-secondary-color;
         }
-
-        a {
-          text-decoration: underline;
-          cursor: pointer;
-        }
       }
     }
   }
@@ -109,13 +108,9 @@
         }
       }
 
-
-
       a {
         color: $global-text-color;
       }
-
-
     }
   }
 
